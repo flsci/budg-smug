@@ -1,4 +1,44 @@
-#### test-docs / markdown
+# test-docs / markdown
+
+<br>
+
+## HTML Entities
+
+<details>
+<summary style="font-weight:600; font-size:1.2em">Spaces
+</summary>
+
+<body><table>
+<tr>
+<td>
+
+| char        | named   | hex   |
+|:------------|:--------|:------|
+| x&#x00A0;yz | \&nbsp; | x00A0 |
+| x&#x2000;yz | en-quad | x2000 |
+| x&#x2001;yz | em-quad | x2001 |
+| x&#x2002;yz | \&ensp; | x2002 |
+| x&#x2003;yz | \&emsp; | x2003 |
+
+<td>
+
+| char        | named       | hex   |
+|:------------|:------------|:------|
+| x&#x2004;yz | 3-per-emsp  | x2004 |
+| x&#x2005;yz | 4-per-emsp  | x2005 |
+| x&#x2006;yz | 6-per-emsp  | x2006 |
+| x&#x2007;yz | figure      | x2007 |
+| x&#x2008;yz | punctuation | x2008 |
+| x&#x2009;yz | \&thinsp;   | x2009 |
+| x&#x205F;yz | medium-math | x205F |
+
+</tr>
+</table></body>
+</details>
+
+<br>
+
+## Box Outlines + Checkboxes
 
 <details>
 <summary style="font-weight:bold; font-size:large">
