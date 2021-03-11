@@ -91,6 +91,21 @@ Connect to the VPN and authenticate using Cisco AnyConnect & the DUO app.
 >
 <img src="./img/ch1/step1/set-lm5-3-edit-cshrc.png" />
 
+<br>
+
+>
+| <img src="./img/ch1/step1/set-lm5-3-edit-cshrc.png" /> |
+|--------------------------------------------------------|
+| Figure 1.2 : Location of `.cshrc` run-command file     |
+
+<br>
+
+>
+| <img src="./img/ch1/step1/set-lm5-3-edit-cshrc.png" /> |
+|--------------------------------------------------------|
+<figcaption>Figure 2.1: Location of `.cshrc` run-command file</figcaption>
+
+<br>
 
 ### 5. Edit `.cshrc` as follows:
 
