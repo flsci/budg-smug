@@ -1,36 +1,36 @@
-
 ## test-html-links
 
 <br>
 
+# URI Fragments
+
 <!-- ---------------------------------------------------------------------- -->
 > ## Using `href` :
 >
-> Can also use `href="#top"` (or the empty fragment `href="#"`) to link the top of current page.
-
+> * Define links using **`#`** and a fragment name instead of a URL : &#x00A0; **`<a href="#fragment-name">Visible Link</a>`**
+> * Then use the **`id=`** attribute to mark the fragment location / link destination : &#x00A0; **`<a id="fragment-name">`**
+> * Can also use **`href="#top"`** or an empty fragment (**`href="#"`**) to link the top of current page
+  
 <br>
 
+<!-- ---------------------------------------------------------------------- -->
 <details>
 <summary><b>Syntax</b>
 </summary>
 
 ```html
 <!-- <a> element links to the section below -->
-<p><a href="#Section_further_down">
-  Jump to the heading below
-</a></p>
+<p><a href="#Section_further_down">Jump to the heading below</a></p>
 
 <!-- Heading to link to -->
 <h2 id="Section_further_down">Section further down</h2>
 
-
-<!--
-Ref: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
--->
+<!--Ref: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a-->
 ```
 </details>
 
-<details open>
+<!-- ---------------------------------------------------------------------- -->
+<details>
 <summary><b>TEST #1</b>
 </summary>
   
@@ -44,8 +44,8 @@ Ref: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
 
 </details>
 
-
-<details open>
+<!-- ---------------------------------------------------------------------- -->
+<details>
 <summary><b>TEST #2</b>
 </summary>
   
@@ -59,12 +59,25 @@ Ref: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
 
 </details>
 
+<!-- ---------------------------------------------------------------------- -->
+<details open>
+<summary><b>TEST #3</b>
+</summary>
+
+* [Layer Properties](#layer-props)
+* [GIS Data Sources](#data-sources)
+  * [Database Connections](#databases)
+  * [File System](#file-systems)
+  * [GIS Servers](#servers)
+
+</details>
+
 <br>
 
 <!-- ---------------------------------------------------------------------- -->
 > ## Using `name` :
 >
-> As seen in many markdown refs --> ** but now deprecated ** .
+> *** The **`name=`** attribute is now deprecated<br >&#x2002;&#x2003; &#x2192; it's superseded by global attribute **`id=`**
 
 <br>
 
@@ -98,13 +111,16 @@ Ref: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
 <br>
 <hr>
 
-> ## – EXAMPLE –
+# EXAMPLE DOC
 
 <br>
 
-<h2 id="layer-props">Layer Properties</h2>
-<a id="layer-props"></a>
+<!--
 <a name="layer-props"></a>
+<h2 id="layer-props">Layer Properties</h2>
+-->
+
+<a id="layer-props"></a>
 
 ## Layer Properties
 
@@ -129,9 +145,12 @@ Ref: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
 <br>
 <hr>
 
-<h2 id="data-sources">GIS Data Sources</h2>
-<a id="data-sources"></a>
+<!--
 <a name="data-sources"></a>
+<h2 id="data-sources">GIS Data Sources</h2>
+-->
+
+<a id="data-sources"></a>
 
 ## GIS Data Sources
 
@@ -141,9 +160,12 @@ Ref: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
 <br>
 <hr>
 
-<h2 id="databases">Database Connections</h2>
-<a id="databases"></a>
+<!--
 <a name="databases"></a>
+<h2 id="databases">Database Connections</h2>
+-->
+
+<a id="databases"></a>
 
 > ## Database Connections
 >
@@ -153,9 +175,12 @@ Ref: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
 <br>
 <hr>
 
-<h2 id="file-systems">File Systems</h2>
-<a id="file-systems"></a>
+<!--
 <a name="file-systems"></a>
+<h2 id="file-systems">File Systems</h2>
+-->
+
+<a id="file-systems"></a>
 
 > ## File Systems
 >
@@ -165,9 +190,12 @@ Ref: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
 <br>
 <hr>
 
-<h2 id="servers">GIS Servers</h2>
-<a id="servers"></a>
+<!--
 <a name="servers"></a>
+<h2 id="servers">GIS Servers</h2>
+-->
+
+<a id="servers"></a>
 
 > ## GIS Servers
 >
