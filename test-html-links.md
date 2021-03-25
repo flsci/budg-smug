@@ -30,11 +30,11 @@ Ref: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
 
 ### Test:
 
-<ul><li><a href="#layer-props"></a></li>
-    <li><a href="#data-sources"></a></li>
-        <ul><li><a href="#databases"></a></li>
-            <li><a href="#file-systems"></a></li>
-            <li><a href="#servers"></a></li>
+<ul><li><a href="#layer-props">Layer Properties</a></li>
+    <li><a href="#data-sources"></a>GIS Data Sources</li>
+        <ul><li><a href="#databases">Database Connections</a></li>
+            <li><a href="#file-systems">File Systems</a></li>
+            <li><a href="#servers"></a>GIS Servers</li>
         </ul>
 </ul>
 
