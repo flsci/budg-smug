@@ -4,13 +4,15 @@
 <br>
 
 <!-- ---------------------------------------------------------------------- -->
-> ## `href` attribute:
+> ## Using `href` :
 >
 > Can also use `href="#top"` (or the empty fragment `href="#"`) to link the top of current page.
 
 <br>
 
-### Syntax:
+<details>
+  <summary><b>Syntax:</b>
+  </summary>
 
 ```html
 <!-- <a> element links to the section below -->
@@ -26,26 +28,28 @@
 Ref: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
 -->
 ```
-
+</details>
 
 ### Test:
 
-<ul><li><a href="#layer-props">Layer Properties</a></li>
-    <li><a href="#data-sources"></a>GIS Data Sources</li>
-        <ul><li><a href="#databases">Database Connections</a></li>
-            <li><a href="#file-systems">File Systems</a></li>
-            <li><a href="#servers"></a>GIS Servers</li>
-        </ul>
+<ul>
+  <li><a href="#layer-props">Layer Properties</a></li>
+  <li><a href="#data-sources"></a>GIS Data Sources</li>
+  <li><a href="#databases">Database Connections</a></li>
+  <li><a href="#file-systems">File Systems</a></li>
+  <li><a href="#servers"></a>GIS Servers</li>
 </ul>
 
 <!-- ---------------------------------------------------------------------- -->
-> ## `name` attribute:
+> ## Using `name` :
 >
 > As seen in many markdown refs.
 
 <br>
 
-### Syntax:
+<details>
+  <summary><b>Syntax:</b>
+  </summary>
 
 * [Section 1](#sect-1)
   * [Subsection 1a](#sect-1a)
@@ -55,6 +59,7 @@ Ref: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
 <a name="sect-1"></a>
 ## Section #1: Subtitle
 
+</details>
 
 ### Test:
 
