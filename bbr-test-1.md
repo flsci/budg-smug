@@ -1,7 +1,5 @@
 <p align="center">
-  <img alt="header image" src="https://github.com/flsci/budg-smug/blob/master/artboard1.png" height="500" />
-  <h2 align="center">carlos' dotfiles</h2>
-  <p align="center">Config files for Fish, Java, Ruby, Go, Editors, Terminals and more.</p>
+  <img alt="header image" src="https://github.com/flsci/budg-smug/blob/master/artboard2.png" height="400" />
 </p>
 
 <br>
