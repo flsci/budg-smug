@@ -1,8 +1,8 @@
 <p align="center">
-  <img alt="header image" src="https://github.com/flsci/budg-smug/blob/master/artboard4.png" height="500" />
+  <img alt="header image" src="https://github.com/flsci/budg-smug/blob/master/bbrsp-header-1.png" height="350" />
+  <h2 align="center">South Texas Geological Society</h2>
+  <p align="center">Spring Field Trip <br> March 2022</p>
 </p>
-
-<br>
 
 ## 03/21 &#x00B7; Monday
 
