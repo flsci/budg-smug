@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="header image" src="https://github.com/flsci/budg-smug/blob/master/artboard2.png" height="400" />
+  <img alt="header image" src="https://github.com/flsci/budg-smug/blob/master/artboard4.png" height="500" />
 </p>
 
 <br>
