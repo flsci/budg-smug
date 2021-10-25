@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="header image" src="https://github.com/flsci/budg-smug/blob/master/bbrsp-header-1.png" height="350" />
+  <img alt="header image" src="https://github.com/flsci/budg-smug/blob/master/BBR-STGS-2022-poster-02.png" height="350" />
   <h2 align="center">South Texas Geological Society</h2>
   <p align="center">Spring Field Trip <br> March 2022</p>
 </p>
