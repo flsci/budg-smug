@@ -15,13 +15,13 @@ BREAKING CHANGE: the data-fields "Offshore,Mexico,Cuba," were deprecated
 and removed from `d0` input-files.
 
 - Pattern-matching used w/ those fields no longer supported
-  --> i.e. {grep '^y,'...} and {grep '^,,,'...}
+  i.e. {grep '^y,'...} and {grep '^,,,'...}
 - Use water-depth "!=0" & "==0" to fetch offshore vs onshore wells instead
 
-- Format of `d0` files generated before this now considered legacy
-  & backward-compatibility will not supported
+- Format of `d0` files generated before this now considered legacy,
+  and backward-compatibility will not supported
 - Update legacy `d0` files manually to reuse
-  -Or- request updated `d0` files be generated for those wells
+- -OR- request updated `d0` files be generated for those wells
 
 # <cr>
 # [optional footer(s)]
